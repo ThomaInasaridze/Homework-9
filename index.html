@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Homework 9</title>
+</head>
+<body>
+    <header></header>
+    <main>
+          
+        <div class="duv">
+
+          <div class="h2div">
+                <h2>შეუკვეთე პროდუქტი დღესვე</h2>
+            </div>
+
+            <form action="succes.html" method="post" class="order" autocomplete="off">
+                
+                <input type="text" name="name" id="name" placeholder="სახელი" required>
+                <input type="text" name="lastname" id="lastname" placeholder="გვარი" required>
+                <input type="number" name="phonenumber" id="phonenumber" placeholder="ტელეფონის ნომერი" required>
+
+                <label for="letter">გთხოვთ მიუთითოთ ზუსტი მისამართი</label>
+
+                <textarea name="letter" id="letter" cols="30" rows="10" ></textarea>
+
+
+
+                <p>აირჩიეთ გადახდის მეთოდი</p>
+
+                <div class="paydiv">
+                    <input type="radio" name="pay" id="card">
+                    <label for="card">ბარათით გადახდა</label>
+        
+                    <input type="radio" name="pay" id="cash">
+                    <label for="cash">ქეშით გადახდა</label>
+
+                    
+                </div>
+                <input type="submit" value="შეკვეთის გაფორმება">
+                
+            </form>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+</html>

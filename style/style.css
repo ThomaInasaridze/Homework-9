@@ -15,7 +15,7 @@ body{
 
 main div{
     width: 950px;
-    height: 1050px;
+
     
 }
 .duv{
@@ -72,8 +72,28 @@ main div{
     height: 80px;
     margin-top: 40px;
     margin-bottom: 40px;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+.paydiv div{
+    width: 28%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
+.paydiv div:nth-child(2){
+    width: 24%;
+}
+
+.paydiv div input, .paydiv div label{
+    display: block;
+
+}
 
 .order input[type="submit"]{
     background-color: #01AF8C;
@@ -157,4 +177,6 @@ main div{
     padding-top: 22px;
     font-weight: 500;
     color: #000000;
+}#card{
+    margin-left: 20px;
 }
